@@ -222,29 +222,26 @@ $(function () {
         "balloon": {},
         "titles": [],
         "dataProvider": [{
-                "category": "Advisory Board",
-                "column-1": "0.5"
+                "category": "Dev Channel",
+                "column-1": "10"
             },
             {
-                "category": "Dispensaries",
-                "column-1": "0.5"
+                "category": "Airdrops",
+                "column-1": "20"
             },
             {
-                "category": "Bounties",
-                "column-1": "1"
+                "category": "Marketting",
+                "column-1": "10"
             },
             {
-                "category": "Token Sale",
-                "column-1": "5"
+                "category": "Sales",
+                "column-1": "20"
             },
             {
-                "category": "Presel",
-                "column-1": "2"
+                "category": "Reserve/Project",
+                "column-1": "40"
             },
-            {
-                "category": "Reserve",
-                "column-1": "1"
-            }
+            
         ]
     });
 
@@ -438,8 +435,8 @@ $(function () {
 //Google map
 function initMap() {
     var _location = {
-        lat: 40.712811,
-        lng: -73.997745
+        lat: 10.717971685865587,
+        lng: 8.591868438740152
     };
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 15,
